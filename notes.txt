@@ -1,0 +1,21 @@
+Previously:
+
+-added function to query the API
+-successfully retrieved data
+
+To do:
+
+-filter data by only whats relevant
+
+-Create an array containing day objects with weather for that day. Day objects contain hour objects with weather for those hours
+
+-Call function to display hours weather when clicking on an individual day
+    -Image carousel to display weather?
+
+-Call function to display each days weather for the week
+
+
+
+-Handle exceptions differently:
+    -If an invalid location is entered, alert the user
+    -If network error, etc. : handle differently
