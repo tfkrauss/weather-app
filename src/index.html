@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style.css">
     <title>Weather</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h1 class="title"></h1>
+    </div>
+
+    <div class="content">
+        <form action="" class="search-bar">
+            <div class="search-container">
+                <input type="text" class="search-in" placeholder="Enter a location">
+                <button class="search-btn"><img src="../SVGs/search.svg" class="search-svg"></img></button>
+            </div>
+            <div class="search-error">Error! No location found. Please try again.</div>
+        </form>
+
+        <div class="weather-summary">
+            <h1 class="weather-title">Los Angeles, CA</h1>
+            <h1 class="temperature">67°</h1>
+            <h2 class="conditions">Sunny</h2>
+            <div class="high-low">
+                H: <span class="high">74</span> L: <span class="low">13</span>
+            </div>
+        </div>
+
+        <div class="weather-grid">
+            <div class="data">
+                <h2 class="data-header">Feels Like</h2>
+                <div class="data-value temp">85°</div>
+            </div>
+            <div class="data">
+                <h2 class="data-header">Humidity</h2>
+                <div class="data-value humidity">36%</div>
+            </div>
+            <div class="data">
+                <h2 class="data-header">Wind</h2>
+                <div class="data-value mph">9 mph</div>
+            </div>
+            <div class="data">
+                <h2 class="data-header">Dew</h2>
+                <div class="data-value dew">56°</div>
+            </div>
+            <div class="data">
+                <h2 class="data-header">UV</h2>
+                <div class="data-value uv">0 of 11</div>
+            </div>
+            <div class="data">
+                <h2 class="data-header">Visibility</h2>
+                <div class="data-value visibility">8 mi</div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
